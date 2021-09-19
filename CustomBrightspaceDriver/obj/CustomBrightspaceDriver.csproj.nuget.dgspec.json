@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jordans's PC\\source\\repos\\CustomBrightspaceDriver\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj": {}
+    "C:\\Users\\aaron\\Desktop\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jordans's PC\\source\\repos\\CustomBrightspaceDriver\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj": {
+    "C:\\Users\\aaron\\Desktop\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jordans's PC\\source\\repos\\CustomBrightspaceDriver\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj",
+        "projectUniqueName": "C:\\Users\\aaron\\Desktop\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj",
         "projectName": "CustomBrightspaceDriver",
-        "projectPath": "C:\\Users\\Jordans's PC\\source\\repos\\CustomBrightspaceDriver\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj",
-        "packagesPath": "C:\\Users\\Jordans's PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jordans's PC\\source\\repos\\CustomBrightspaceDriver\\CustomBrightspaceDriver\\obj\\",
+        "projectPath": "C:\\Users\\aaron\\Desktop\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj",
+        "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aaron\\Desktop\\Bumblebee\\CustomBrightspaceDriver\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jordans's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
