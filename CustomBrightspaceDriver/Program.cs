@@ -1,7 +1,5 @@
 ﻿using System;
-using System.IO;
-using System.Text.RegularExpressions;
-using Newtonsoft.Json.Linq;
+using System.Collections.Generic;
 
 //~~~~~Custom imports
 using OpenQA.Selenium;
@@ -47,23 +45,12 @@ namespace CustomBrightspaceDriver
 			driver.Navigate().GoToUrl(URL2);
 			driver.Navigate().GoToUrl(URL3);
 
-			//string[] webrequests = {driver.PageSource};
-			//await File.WriteAllLinesAsync("WebRequests.html", webrequests);
-
-			string htmlAsText = driver.PageSource;
-			string jsonRegex = @"\{(?:[^\{\}]|(?<o>\{)|(?<-o>\}))+(?(o)(?!))\}";
-			string input = htmlAsText.Substring(htmlAsText.IndexOf("pre-wrap;\">"));
-
-			Match match = Regex.Matches(input, jsonRegex, RegexOptions.Multiline | RegexOptions.IgnoreCase)[0];
-
-			string jsonText = match.Groups[0].Value;
-			JObject jsonObj = JObject.Parse(jsonText);
-			File.WriteAllText("info.json", jsonObj.ToString());
+			InfoExtractor.WriteToJSONFile("test.json", driver.PageSource);
+			List<Class> new_classes = InfoExtractor.GetClassesFromFile("test.json");
 
 			driver.Quit();
 
 			Console.WriteLine("Done");
-
 		}
 	}
 }

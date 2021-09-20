@@ -15,4 +15,3 @@ C:\Users\aaron\Desktop\Bumblebee\CustomBrightspaceDriver\obj\Debug\netcoreapp3.1
 C:\Users\aaron\Desktop\Bumblebee\CustomBrightspaceDriver\obj\Debug\netcoreapp3.1\CustomBrightspaceDriver.dll
 C:\Users\aaron\Desktop\Bumblebee\CustomBrightspaceDriver\obj\Debug\netcoreapp3.1\CustomBrightspaceDriver.pdb
 C:\Users\aaron\Desktop\Bumblebee\CustomBrightspaceDriver\obj\Debug\netcoreapp3.1\CustomBrightspaceDriver.genruntimeconfig.cache
-C:\Users\aaron\Desktop\Bumblebee\CustomBrightspaceDriver\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
