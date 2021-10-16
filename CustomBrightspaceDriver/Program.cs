@@ -10,16 +10,14 @@ namespace CustomBrightspaceDriver
 {
 	class Program
 	{
-		private const string USER = "youruser";
-		private const string PASS = "yourpass";
-
 		private const string URL1 = "https://login.fanshawec.ca/cas/login?service=https%3A%2F%2Flogin.fanshawec.ca%2Fidp%2FAuthn%2FExtCas%3Fconversation%3De2s1&entityId=https%3A%2F%2Fc70baeb4-290e-4d0f-864b-dee68f276d2c.tenants.brightspace.com%2FsamlLogin";
 		private const string URL2 = "https://www.fanshaweonline.ca/";
 		private const string URL3 = "https://www.fanshaweonline.ca/d2l/api/lp/1.32/enrollments/myenrollments/?sortBy=-EndDate";
 
 		static void Main(string[] args)
 		{
-			//IWebDriver driver = new ChromeDriver(AppDomain.CurrentDomain.BaseDirectory);
+			String user = "";
+			String pass = "";
 
 			ChromeDriverService service = ChromeDriverService.CreateDefaultService();
 			service.HideCommandPromptWindow = true;
@@ -29,28 +27,42 @@ namespace CustomBrightspaceDriver
 
 			var driver = new ChromeDriver(service, options);
 
-			driver.Navigate().GoToUrl(URL1);
+			//~~~~~~~~~ Setup app
 
-			IWebElement userfield = driver.FindElement(By.Id("username"));
-			IWebElement passfield = driver.FindElement(By.Id("password"));
+			if (!Initalizer.InitalizeAppStart())
+			{
+				Console.WriteLine("App Start Failed. Exitting...");
+				driver.Quit();
+			}
+			else //~~~~~~~~~~~~~~
+			{
+				//~~~ Grab user properties
+				user = UserInfo.GetUsername();
+				pass = UserInfo.GetPass();
 
-			userfield.Clear();
-			userfield.SendKeys(USER);
-			passfield.Clear();
-			passfield.SendKeys(PASS);
+				driver.Navigate().GoToUrl(URL1);
 
-			driver.FindElement(By.Name("submit")).Click();
+				IWebElement userfield = driver.FindElement(By.Id("username"));
+				IWebElement passfield = driver.FindElement(By.Id("password"));
 
-			//~~~ Navigate URL
-			driver.Navigate().GoToUrl(URL2);
-			driver.Navigate().GoToUrl(URL3);
+				userfield.Clear();
+				userfield.SendKeys(user);
+				passfield.Clear();
+				passfield.SendKeys(pass);
 
-			InfoExtractor.WriteToJSONFile("classes.json", driver.PageSource);
-			List<Class> new_classes = InfoExtractor.GetClassesFromFile("classes.json");
+				driver.FindElement(By.Name("submit")).Click();
 
-			driver.Quit();
+				//~~~ Navigate URL
+				driver.Navigate().GoToUrl(URL2);
+				driver.Navigate().GoToUrl(URL3);
 
-			Console.WriteLine("Done");
+				InfoExtractor.WriteToJSONFile("classes.json", driver.PageSource);
+				List<Class> new_classes = InfoExtractor.GetClassesFromFile("classes.json");
+
+				driver.Quit();
+
+				Console.WriteLine("Done");
+			}
 		}
 	}
 }

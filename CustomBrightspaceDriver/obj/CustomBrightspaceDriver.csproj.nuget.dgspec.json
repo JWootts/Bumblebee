@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aaron\\Desktop\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj": {}
+    "E:\\School\\FALL-2021\\INFO5103\\project\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aaron\\Desktop\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj": {
+    "E:\\School\\FALL-2021\\INFO5103\\project\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aaron\\Desktop\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj",
+        "projectUniqueName": "E:\\School\\FALL-2021\\INFO5103\\project\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj",
         "projectName": "CustomBrightspaceDriver",
-        "projectPath": "C:\\Users\\aaron\\Desktop\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj",
-        "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aaron\\Desktop\\Bumblebee\\CustomBrightspaceDriver\\obj\\",
+        "projectPath": "E:\\School\\FALL-2021\\INFO5103\\project\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj",
+        "packagesPath": "C:\\Users\\Jordans's PC\\.nuget\\packages\\",
+        "outputPath": "E:\\School\\FALL-2021\\INFO5103\\project\\Bumblebee\\CustomBrightspaceDriver\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jordans's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +46,10 @@
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[3.141.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
