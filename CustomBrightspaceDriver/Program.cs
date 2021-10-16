@@ -15,7 +15,7 @@ namespace CustomBrightspaceDriver
 
 		private const string URL1 = "https://login.fanshawec.ca/cas/login?service=https%3A%2F%2Flogin.fanshawec.ca%2Fidp%2FAuthn%2FExtCas%3Fconversation%3De2s1&entityId=https%3A%2F%2Fc70baeb4-290e-4d0f-864b-dee68f276d2c.tenants.brightspace.com%2FsamlLogin";
 		private const string URL2 = "https://www.fanshaweonline.ca/";
-		private const string URL3 = "https://www.fanshaweonline.ca/d2l/api/lp/1.9/enrollments/myenrollments/";
+		private const string URL3 = "https://www.fanshaweonline.ca/d2l/api/lp/1.32/enrollments/myenrollments/?sortBy=-EndDate";
 
 		static void Main(string[] args)
 		{
@@ -45,8 +45,8 @@ namespace CustomBrightspaceDriver
 			driver.Navigate().GoToUrl(URL2);
 			driver.Navigate().GoToUrl(URL3);
 
-			InfoExtractor.WriteToJSONFile("test.json", driver.PageSource);
-			List<Class> new_classes = InfoExtractor.GetClassesFromFile("test.json");
+			InfoExtractor.WriteToJSONFile("classes.json", driver.PageSource);
+			List<Class> new_classes = InfoExtractor.GetClassesFromFile("classes.json");
 
 			driver.Quit();
 
