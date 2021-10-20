@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -42,9 +43,32 @@ namespace CustomBrightspaceDriver
             //loop through and add all classes, if dates are null, will return a default date of 01-01-0001
             for (int i = 0; i < ids.Count; ++i)
             {
+
+                //comment out if statements if you want all classes included not just current
+                if (end_dates[i] == null)
+                    continue;
+                else if(DateTime.Parse(end_dates[i]) < DateTime.Now)
+                    continue;
+
                 classes.Add(new Class(ids[i], codes[i], names[i], Convert.ToDateTime(start_dates[i]), Convert.ToDateTime(end_dates[i]), Convert.ToDateTime(last_accessed[i])));
             }
             return classes;
+        }
+
+
+        public static void CreateJsonFromClasses(List<Class> classes)
+        {
+            string JSONresult = JsonConvert.SerializeObject(classes);
+            string path = @"filteredClasses.json";
+            if(File.Exists(path))
+            {
+                File.Delete(path);
+            }
+            using (var tw = new StreamWriter(path, true))
+            {
+                tw.WriteLine(JSONresult.ToString());
+                tw.Close();
+            }
         }
     }
 }

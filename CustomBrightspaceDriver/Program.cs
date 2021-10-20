@@ -59,6 +59,9 @@ namespace CustomBrightspaceDriver
 				InfoExtractor.WriteToJSONFile("classes.json", driver.PageSource);
 				List<Class> new_classes = InfoExtractor.GetClassesFromFile("classes.json");
 
+				//create new json file with only most recent classes
+				InfoExtractor.CreateJsonFromClasses(new_classes);
+
 				driver.Quit();
 
 				Console.WriteLine("Done");
