@@ -10,9 +10,13 @@ namespace CustomBrightspaceDriver
 		private const  String APP_NAME = "BUMBLEBEE";
 		private static String APPDATA_DIR = "C:\\Users\\" + Environment.UserName + "\\AppData\\Roaming\\" + APP_NAME;
 
+		private static String FANSHAWE_LOGIN_URI = "https://login.fanshawec.ca/cas/login?service=https%3A%2F%2Flogin.fanshawec.ca%2Fidp%2FAuthn%2FExtCas%3Fconversation%3De2s1&entityId=https%3A%2F%2Fc70baeb4-290e-4d0f-864b-dee68f276d2c.tenants.brightspace.com%2FsamlLogin";
+		private static String FANSHAWE_HOMEPAGE_URI = "https://www.fanshaweonline.ca/";
+
+
 		public static bool InitalizeAppStart()
 		{
-			if (!CreateAppDataStore() || !ConfirmUserProperties())
+			if (!CreateAppDataStore() || !ConfirmUserProperties() || !ConfirmSchoolInformation())
 				return false;
 			else
 				return true; //~No Errors
@@ -26,6 +30,67 @@ namespace CustomBrightspaceDriver
 					Directory.CreateDirectory(APPDATA_DIR);
 			}
 			catch (Exception e){
+				Console.WriteLine(e.Message);
+				return false; //Failed
+			}
+			return true;
+		}
+
+		private static bool ConfirmSchoolInformation()
+		{
+			string school_propsDIR = APPDATA_DIR + "\\schoolinfo.ini";
+			string loginuri = "";
+			string homepageuri = "";
+
+			try
+			{
+				if (!File.Exists(school_propsDIR))
+				{
+
+					Console.WriteLine("Are you a Fanshawe Student???");
+					String input = Console.ReadLine().ToLower();
+
+					if (input == "n" || input == "no")
+					{
+
+						//~~~ write to school props ###
+						Console.WriteLine("Please Enter School Login URI:");
+						loginuri = Console.ReadLine();
+
+						while (loginuri == "")
+							loginuri = Console.ReadLine();
+
+
+						Console.WriteLine("Please Enter School Homepage URI:");
+						homepageuri = Console.ReadLine();
+
+						while (homepageuri == "")
+							homepageuri = Console.ReadLine();
+					}
+					else
+					{
+						loginuri = FANSHAWE_LOGIN_URI;
+						homepageuri = FANSHAWE_HOMEPAGE_URI;
+					}
+
+					using (StreamWriter sw = File.CreateText(school_propsDIR))
+					{
+						sw.WriteLine(loginuri);
+						sw.WriteLine(homepageuri);
+					}
+				}
+				else
+				{
+					using (StreamReader sr = File.OpenText(school_propsDIR))
+					{
+						loginuri = sr.ReadLine();
+						homepageuri = sr.ReadLine();
+					}
+				}
+				UserInfo.SetSchoolInformation(loginuri, homepageuri);
+			}
+			catch (Exception e)
+			{
 				Console.WriteLine(e.Message);
 				return false; //Failed
 			}

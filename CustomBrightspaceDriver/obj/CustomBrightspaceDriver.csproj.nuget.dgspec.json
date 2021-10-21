@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SCHOOL\\FALL2021SCHOOL\\management\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj": {}
+    "E:\\School\\FALL-2021\\INFO5103\\project\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj": {}
   },
   "projects": {
-    "D:\\SCHOOL\\FALL2021SCHOOL\\management\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj": {
+    "E:\\School\\FALL-2021\\INFO5103\\project\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SCHOOL\\FALL2021SCHOOL\\management\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj",
+        "projectUniqueName": "E:\\School\\FALL-2021\\INFO5103\\project\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj",
         "projectName": "CustomBrightspaceDriver",
-        "projectPath": "D:\\SCHOOL\\FALL2021SCHOOL\\management\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj",
-        "packagesPath": "C:\\Users\\kolch\\.nuget\\packages\\",
-        "outputPath": "D:\\SCHOOL\\FALL2021SCHOOL\\management\\Bumblebee\\CustomBrightspaceDriver\\obj\\",
+        "projectPath": "E:\\School\\FALL-2021\\INFO5103\\project\\Bumblebee\\CustomBrightspaceDriver\\CustomBrightspaceDriver.csproj",
+        "packagesPath": "C:\\Users\\Jordans's PC\\.nuget\\packages\\",
+        "outputPath": "E:\\School\\FALL-2021\\INFO5103\\project\\Bumblebee\\CustomBrightspaceDriver\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\kolch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jordans's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,7 +45,7 @@
           "dependencies": {
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[3.141.0, )"
+              "version": "[4.0.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -62,18 +62,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.13, 3.1.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
