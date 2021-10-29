@@ -43,14 +43,13 @@ namespace CustomBrightspaceDriver
             //loop through and add all classes, if dates are null, will return a default date of 01-01-0001
             for (int i = 0; i < ids.Count; ++i)
             {
-
                 //comment out if statements if you want all classes included not just current
                 if (end_dates[i] == null)
                     continue;
                 else if(DateTime.Parse(end_dates[i]) < DateTime.Now)
                     continue;
 
-                classes.Add(new Class(ids[i], codes[i], names[i], Convert.ToDateTime(start_dates[i]), Convert.ToDateTime(end_dates[i]), Convert.ToDateTime(last_accessed[i])));
+                classes.Add(new Class(ids[i], codes[i], names[i], Convert.ToDateTime(start_dates[i]), Convert.ToDateTime(end_dates[i]), Convert.ToDateTime(last_accessed[i]), ""));
             }
             return classes;
         }

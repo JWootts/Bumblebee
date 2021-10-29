@@ -34,7 +34,7 @@ namespace CustomBrightspaceDriver
 
 		public static String RunGETRequest(String d2lCall) //SETUP CONSTS OF d2l CALLS? OR ENUMS?
 		{
-			driver.Navigate().GoToUrl(d2lCall_Address + d2lCall);
+			driver.Navigate().GoToUrl(d2lCall);
 			return driver.PageSource;
 		}
 
