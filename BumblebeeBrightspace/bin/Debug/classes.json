@@ -1,0 +1,2708 @@
+{
+  "PagingInfo": {
+    "Bookmark": "1052746",
+    "HasMoreItems": true
+  },
+  "Items": [
+    {
+      "OrgUnit": {
+        "Id": 1224035,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "FILM-1009-40 - Film Genres - Comedy",
+        "Code": "FILM-1009-40-21F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1224035",
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1224035/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-09-05T03:59:00Z",
+        "EndDate": "2022-01-23T04:59:00Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-11-14T22:58:42.547Z"
+      },
+      "PinDate": "2021-09-07T14:10:18.653Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1211438,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3068 Secure Computing (Online)",
+        "Code": "INFO-3068-(01-02)-21F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1211438",
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1211438/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-09-07T04:00:00Z",
+        "EndDate": "2022-01-16T05:00:00Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-11-19T18:18:11.15Z"
+      },
+      "PinDate": "2021-09-07T14:10:34.497Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1212179,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3142 Emerging Technologies (Online)",
+        "Code": "INFO-3142-(01-02-03)-21F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1212179",
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1212179/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-09-07T04:00:00Z",
+        "EndDate": "2022-01-16T05:00:00Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-11-19T18:34:47.733Z"
+      },
+      "PinDate": "2021-09-07T14:10:38.25Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1214009,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO5059 Java Client/Server Applications (Online)",
+        "Code": "INFO-5059-(01-02)-21F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1214009",
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1214009/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-09-07T04:00:00Z",
+        "EndDate": "2022-01-16T05:00:00Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-11-20T05:47:04.563Z"
+      },
+      "PinDate": "2021-09-07T14:10:38.537Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1214013,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO5103 Managing Software Projects-Applied 2 (Online)",
+        "Code": "INFO-5103-(01-02)-21F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1214013",
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1214013/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-09-07T04:00:00Z",
+        "EndDate": "2022-01-16T05:00:00Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-11-19T18:17:56.18Z"
+      },
+      "PinDate": "2021-09-07T14:10:39.213Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1214061,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO5126 Mobile Development-Adv",
+        "Code": "INFO-5126-(01-02)-21F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1214061",
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1214061/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-09-07T04:00:00Z",
+        "EndDate": "2022-01-16T05:00:00Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-11-18T20:19:35.827Z"
+      },
+      "PinDate": "2021-09-07T14:10:40.717Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1222464,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "COMPUTER PROGRAMMER ANALYST",
+        "Code": "CPA HOMEPAGE FALL 2021",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1222464",
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1222464/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-09-02T04:00:00Z",
+        "EndDate": "2022-01-16T05:00:00Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1238804,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "School of IT Students",
+        "Code": "SCHOOL OF IT STUDENTS INFO FORUM FALL 2021",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1238804",
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1238804/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-08-30T04:00:00Z",
+        "EndDate": "2022-01-16T05:00:00Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1250211,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "CPA/IWD/CYB PEER MENTOR SITE (21F)",
+        "Code": "PEER-TUTOR-02-21F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1250211",
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1250211/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-09-07T04:00:00Z",
+        "EndDate": "2022-01-02T05:00:00Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1131387,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INDS-1058-40 - Foodonomics: Starving for the Truth",
+        "Code": "INDS-1058-40-21W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1131387/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-10T04:30:00Z",
+        "EndDate": "2021-05-29T03:30:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-04-25T20:12:49.43Z"
+      },
+      "PinDate": "2021-01-10T18:58:59.98Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1117490,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3139 JavaScript (Online)",
+        "Code": "INFO-3139-(01-02-03)-21W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1117490/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-11T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-04-22T22:26:04.623Z"
+      },
+      "PinDate": "2021-01-11T12:38:56.533Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1124344,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3112 Managing Software Projects-Applied 1 (Online)",
+        "Code": "INFO-3112-(01-02-03)-21W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1124344/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-11T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-04-22T23:29:30.127Z"
+      },
+      "PinDate": "2021-01-11T12:38:55.89Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1128547,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3141 Mobile Develpment-Inter (Online)",
+        "Code": "INFO-3141-(01-02-03)-21W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1128547/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-11T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-04-26T16:23:34.35Z"
+      },
+      "PinDate": "2021-01-11T12:38:54.433Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1128586,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO5060 Component-based Programming with .NET (Online)",
+        "Code": "INFO-5060-(01-02-03)-21W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1128586/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-11T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-04-27T02:37:44.547Z"
+      },
+      "PinDate": "2021-01-11T20:36:17.1Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1128625,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO5101 C# Advanced Topics (Online)",
+        "Code": "INFO-5101-(01-02-03)-21W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1128625/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-11T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-04-25T02:01:13.5Z"
+      },
+      "PinDate": "2021-01-11T12:38:45.393Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1128647,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO5125 Software Design Patterns 2 (Online)",
+        "Code": "INFO-5125-(02-03)-21W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1128647/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-11T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-04-27T02:37:24.87Z"
+      },
+      "PinDate": "2021-01-11T12:38:44.39Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1140671,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "COMPUTER PROGRAMMER ANALYST",
+        "Code": "CPA HOMEPAGE WINTER 2021",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1140671/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-04T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-03-30T16:00:22.993Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1141395,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "CPA/IWD/CYB PEER MENTOR SITE (21W)",
+        "Code": "PEER-TUTOR-02-21W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1141395/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-04T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1141455,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "IC Programming Contest Winter 2021",
+        "Code": "IT CHALLENGE WINTER 2021",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1141455/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-04T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1142323,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "School of IT Students",
+        "Code": "SCHOOL OF IT STUDENTS INFO FORUM WINTER 2021",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1142323/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-04T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1043997,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3067 ASP.NET Programming with C#",
+        "Code": "INFO-3067-(03-04)-20S",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1043997/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-05-04T04:00:00Z",
+        "EndDate": "2020-09-20T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-07-06T15:19:55.713Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044010,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3111 C++ Graphics Programming",
+        "Code": "INFO-3111-(01-02)-20S",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1044010/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-06-29T04:00:00Z",
+        "EndDate": "2020-09-20T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-08-20T23:53:18.387Z"
+      },
+      "PinDate": "2020-06-29T04:15:54.377Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044071,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3136 Mobile Development",
+        "Code": "INFO-3136-(01-02-03-04)-20S",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1044071/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-05-04T04:00:00Z",
+        "EndDate": "2020-09-20T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-08-25T02:14:53.947Z"
+      },
+      "PinDate": "2020-05-05T18:20:30.77Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044083,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3137 Software Design Patterns 1",
+        "Code": "INFO-3137-(03-04)-20S",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1044083/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-05-04T04:00:00Z",
+        "EndDate": "2020-09-20T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-08-25T21:45:54.81Z"
+      },
+      "PinDate": "2020-05-05T18:20:28.05Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044244,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "MGMT3036 Prof. Development - Career Planning",
+        "Code": "MGMT-3036-03-20S",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1044244/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-05-04T04:00:00Z",
+        "EndDate": "2020-09-20T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-08-12T02:09:56.203Z"
+      },
+      "PinDate": "2020-05-05T18:20:26.927Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1045792,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3138 Programming with Declarative Languages",
+        "Code": "INFO-3138-(01-02-03-04)-20S",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1045792/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-05-04T04:00:00Z",
+        "EndDate": "2020-09-20T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-08-20T23:38:47.783Z"
+      },
+      "PinDate": "2020-05-05T18:20:23.067Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 1051960,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "School of IT Students",
+        "Code": "SCHOOL OF IT STUDENTS INFO FORUM SUMMER 2020",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1051960/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-05-04T04:00:00Z",
+        "EndDate": "2020-09-20T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-08-19T15:54:24.14Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1051950,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "COMPUTER PROGRAMMER ANALYST",
+        "Code": "CPA HOMEPAGE SUMMER 2020",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/1051950/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-05-01T04:00:00Z",
+        "EndDate": "2020-09-19T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-06-26T23:02:04.737Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 965106,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO5052 Advanced Databases",
+        "Code": "INFO-5052-(03-04)-19F",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/965106/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-03-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-12-19T17:06:13.023Z"
+      },
+      "PinDate": "2019-09-02T03:44:30.903Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 976947,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "COMM-3077-63 - Communication for IT Professionals",
+        "Code": "COMM-3077-63-19F",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/976947/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-02T03:30:00Z",
+        "EndDate": "2020-01-21T04:30:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-01-20T17:49:44.703Z"
+      },
+      "PinDate": "2019-09-02T03:44:16.873Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 965072,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO1219 Network Fundamentals for Programmers",
+        "Code": "INFO-1219-(01-02-03-04)-19F",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/965072/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-01-18T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-12-19T16:29:32.61Z"
+      },
+      "PinDate": "2019-09-02T03:44:32.577Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 965084,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3070 Client/Server Application Development",
+        "Code": "INFO-3070-04-19F",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/965084/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-01-18T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-12-18T15:34:56.783Z"
+      },
+      "PinDate": "2019-09-02T03:44:27.437Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 966327,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3140 Object Oriented Analysis &amp; Modeling",
+        "Code": "INFO-3140-(03-04)-19F",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/966327/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-01-18T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-12-19T19:43:18.563Z"
+      },
+      "PinDate": "2019-09-02T03:44:21.5Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 988813,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3135 Data Structures &amp; Algorithms",
+        "Code": "INFO-3135-04-19F",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/988813/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-01-18T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-12-19T20:05:41.11Z"
+      },
+      "PinDate": "2019-09-10T12:04:46.773Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 966506,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "CPA HOMEPAGE FALL 2019\tCOMPUTER PROGRAMMER ANALYST",
+        "Code": "CPA HOMEPAGE FALL 2019",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/966506/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-01-06T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-11-09T15:34:37.23Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 966574,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "School of IT Students",
+        "Code": "SCHOOL OF IT STUDENTS INFO FORUM FALL 2019",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/966574/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-01-06T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-11-15T01:37:59.36Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 988262,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "ACM Contest",
+        "Code": "IT CHALLENGE FALL 2019",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/988262/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-01-06T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 882139,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "WRIT Assessment Test Course",
+        "Code": "WRIT-ASSESS-2018",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/882139/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2018-06-25T04:00:00Z",
+        "EndDate": "2019-06-05T13:20:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2018-09-05T14:55:42.477Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 916341,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO1167 Business At the Speed of Light",
+        "Code": "INFO-1167-(06-07-08)-19W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/916341/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-04-24T01:25:13.377Z"
+      },
+      "PinDate": "2019-01-07T06:44:10.11Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 916421,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO1217 Web Design",
+        "Code": "INFO-1217-(01-02-03-04)-19W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/916421/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-04-28T06:11:57.75Z"
+      },
+      "PinDate": "2019-01-07T06:43:57.86Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 918268,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3134 Object Oriented Programming with Java",
+        "Code": "INFO-3134-(02-03)-19W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/918268/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-04-28T06:30:47.447Z"
+      },
+      "PinDate": "2019-01-07T06:43:56.183Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 918865,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3120 Prog. Commercial Game Engines",
+        "Code": "INFO-3120-02-19W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/918865/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-04-24T15:44:24.213Z"
+      },
+      "PinDate": "2019-01-07T06:43:54.807Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 932429,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "COMPUTER PROGRAMMER ANALYST",
+        "Code": "CPA HOMEPAGE WINTER 2019",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/932429/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-05-17T06:10:30.323Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 933591,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO1156 Object Oriented Programming with C++",
+        "Code": "info-1156-03-19W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/933591/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-12-03T21:49:08.83Z"
+      },
+      "PinDate": "2019-01-07T06:43:51.613Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 934692,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "MGMT3052 Understanding Workplace Behaviours",
+        "Code": "MGMT-3052-03-19W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/934692/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-04-24T01:27:50.613Z"
+      },
+      "PinDate": "2019-01-07T06:43:49.297Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 938243,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3104 Relational Databases",
+        "Code": "INFO-3104-03-19W",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/938243/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-04-30T16:21:22.673Z"
+      },
+      "PinDate": "2019-01-16T04:14:57.34Z"
+    },
+    {
+      "OrgUnit": {
+        "Id": 940090,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "IT Programming Challenge",
+        "Code": "IT CHALLENGE WINTER 2019",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/940090/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 883038,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "BUSI1156 Strategies for Success (Online)",
+        "Code": "BUSI-1156-(02-03-04-07-08-13)-18F",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/883038/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2018-09-04T04:00:00Z",
+        "EndDate": "2019-01-12T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2018-12-12T20:43:44.503Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 883170,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO1214 Programming Fundamentals",
+        "Code": "INFO-1214-04-18F",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/883170/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2018-09-04T04:00:00Z",
+        "EndDate": "2019-01-12T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2018-12-17T21:52:00.41Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 883176,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO1215 Database Fundamentals",
+        "Code": "INFO-1215-04-18F",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/883176/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2018-09-04T04:00:00Z",
+        "EndDate": "2019-01-12T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2018-12-11T14:51:56.913Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 883180,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO1216 Operating Syst Fundamentals-Programmers",
+        "Code": "INFO-1216-(03-04)-18F",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/883180/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2018-09-04T04:00:00Z",
+        "EndDate": "2019-01-12T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2018-12-12T17:44:24.473Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 883993,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "MATH1202 Mathematics for Programmers",
+        "Code": "MATH-1202-(01-02-03-04)-18F",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/883993/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2018-09-04T04:00:00Z",
+        "EndDate": "2019-01-12T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2018-12-12T15:53:41.853Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 897483,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "SCHOOL OF IT STUDENTS",
+        "Code": "School of IT Students Info Forum FALL 2018",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/897483/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2018-09-04T04:00:00Z",
+        "EndDate": "2019-01-12T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 906149,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "ACM Contest",
+        "Code": "IT CHALLENGE FALL 2018",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/906149/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2018-09-04T04:00:00Z",
+        "EndDate": "2019-01-12T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 884233,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "COMPUTER PROGRAMMER ANALYST",
+        "Code": "CPA HOMEPAGE FALL 2018",
+        "HomeUrl": null,
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/884233/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2018-09-04T04:00:00Z",
+        "EndDate": "2019-01-08T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2018-11-12T17:51:17.883Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 29533,
+        "Type": {
+          "Id": 1,
+          "Code": "Organization",
+          "Name": "Organization"
+        },
+        "Name": "Fanshawe College",
+        "Code": "Fanshawe College",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/29533",
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/29533/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-11-20T20:24:43.01Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 574944,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "COOP1020/Co-operative Education - CPA",
+        "Code": "CPA_CO-OP",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/574944",
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/574944/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-11-05T15:49:11.78Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 883171,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-1214-04-18F",
+        "Code": "INFO-1214-04-18F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/883171",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 883177,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-1215-04-18F",
+        "Code": "INFO-1215-04-18F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/883177",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 883997,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "MATH-1202-04-18F",
+        "Code": "MATH-1202-04-18F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/883997",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 884709,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-1216-04-18F",
+        "Code": "INFO-1216-04-18F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/884709",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 887907,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CPA LEVEL 1 - 18F",
+        "Code": "CPA LEVEL 1 - 18F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/887907",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 888064,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CPA CO-OP FALL 2018 INTAKE",
+        "Code": "CPA CO-OP FALL 2018 INTAKE",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/888064",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 894494,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "Fanshawe Orientation Course - Student Success",
+        "Code": "EDUC-9036-01-18SCE",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/894494",
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/894494/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2018-08-16T17:41:09.513Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 894496,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "EDUC-9036-01-18SCE",
+        "Code": "EDUC-9036-01-18SCE",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/894496",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 897490,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CTRL-CPA21-LCD-18F",
+        "Code": "CTRL-CPA21-LCD-18F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/897490",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 904025,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "BUSI-1156-04-18F",
+        "Code": "BUSI-1156-04-18F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/904025",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 906151,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CPA STUDENTS - ACM18",
+        "Code": "CPA STUDENTS - ACM18",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/906151",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 906769,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "Career Services Online Resources",
+        "Code": "CareerServices",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/906769",
+        "ImageUrl": "https://www.fanshaweonline.ca/d2l/api/lp/1.9/courses/906769/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2018-11-01T04:00:00Z",
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-12-16T20:46:25.427Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 916347,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-1167-06-19W",
+        "Code": "INFO-1167-06-19W",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/916347",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 916424,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-1217-03-19W",
+        "Code": "INFO-1217-03-19W",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/916424",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-09-16T17:20:47.37Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 918271,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3134-03-19W",
+        "Code": "INFO-3134-03-19W",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/918271",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 918866,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3120-02-19W",
+        "Code": "INFO-3120-02-19W",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/918866",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 932431,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CPA LEVEL 2 - 19W",
+        "Code": "CPA LEVEL 2 - 19W",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/932431",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 932606,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "Group 60",
+        "Code": "grp_60",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/932606",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 932734,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "Group 84",
+        "Code": "grp_84",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/932734",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 933592,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "info-1156-03-19W",
+        "Code": "info-1156-03-19W",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/933592",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 934693,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "MGMT-3052-03-19W",
+        "Code": "MGMT-3052-03-19W",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/934693",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 934977,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "Group 16: ",
+        "Code": "Group_777065_16",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/934977",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 938244,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3104-03-19W",
+        "Code": "INFO-3104-03-19W",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/938244",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 940091,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "IT CHALLENGE CPA 19W",
+        "Code": "IT CHALLENGE CPA 19W",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/940091",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 965416,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-1219-04-19F",
+        "Code": "INFO-1219-04-19F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/965416",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 965468,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3070-04-19F",
+        "Code": "INFO-3070-04-19F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/965468",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 965518,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-5052-04-19F",
+        "Code": "INFO-5052-04-19F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/965518",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 966329,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3140-04-19F",
+        "Code": "INFO-3140-04-19F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/966329",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 966508,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CPA LEVEL 3 -19F",
+        "Code": "CPA LEVEL 3 -19F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/966508",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 984372,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "COMM-3077-63 - Communication for IT Professionals",
+        "Code": "COMM-3077-63-19F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/984372",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 987745,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CTRL-CPA23-LCD-19F",
+        "Code": "CTRL-CPA23-LCD-19F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/987745",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 988264,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CPA STUDENTS - ACM19",
+        "Code": "CPA STUDENTS - ACM19",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/988264",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 988814,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3135-04-19F",
+        "Code": "INFO-3135-04-19F",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/988814",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 990448,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "COMM-3077-63 - Communication for IT Professionals 9",
+        "Code": "COMM-3077-63 - Communication for IT Professionals_",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/990448",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 998336,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "Section 4 - GROUP 3",
+        "Code": "INFO-1219-04-19F_3",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/998336",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 999908,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "Research Report Group # 2",
+        "Code": "Research Report Group #_2",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/999908",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1043998,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3067-03-20S",
+        "Code": "INFO-3067-03-20S",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1043998",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044011,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3111-01-20S",
+        "Code": "INFO-3111-01-20S",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1044011",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044074,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3136-03-20S",
+        "Code": "INFO-3136-03-20S",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1044074",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044084,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3137-03-20S",
+        "Code": "INFO-3137-03-20S",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1044084",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044245,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "MGMT-3036-03-20S",
+        "Code": "MGMT-3036-03-20S",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1044245",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1049666,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3138-03-20S",
+        "Code": "INFO-3138-03-20S",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1049666",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 1052746,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CPA LEVEL 4 - 20S",
+        "Code": "CPA LEVEL 4 - 20S",
+        "HomeUrl": "https://www.fanshaweonline.ca/d2l/home/1052746",
+        "ImageUrl": null
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    }
+  ]
+}
