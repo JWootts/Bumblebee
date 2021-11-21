@@ -38,6 +38,8 @@ namespace BumblebeeBrightspace
 		{
             l_ClassName.Text = UserInfo.GetClassList()[classIndex].Name;
             l_Code.Text = UserInfo.GetClassList()[classIndex].Code;
+            GetClassGrades(curClass);
+            l_Notes.Text = UserInfo.GetClassList()[classIndex].Notes;
 
             ConfirmNoEndings();
             SetCurrentClassCountLabel();
@@ -54,6 +56,11 @@ namespace BumblebeeBrightspace
                 b_Next.Enabled = false;
             else
                 b_Next.Enabled = true;
+        }
+
+        private void GetClassGrades(int classIndex)
+        {
+            InfoExtractor.WriteToJSONFile("grades.json", ChromiumDriver.RunGETRequest(D2LPaths.ReturnD2lPath(D2LPATHS.GRADES, UserInfo.GetClassList()[classIndex].Id)));
         }
 
         private static Image ResizeImage(Image imgToResize, Size destinationSize)

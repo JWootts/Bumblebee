@@ -15,14 +15,12 @@ namespace BumblebeeBrightspace
 
 		private void Form1_Activated(object sender, EventArgs e)
 		{
+
 			if (Initalizer.InitalizeAppStart())
 			{
 				this.Hide();
 
 				//***************ADD LOADING SCREEN FOR SLOW TIMES
-
-
-				ChromiumDriver.InitializeDriver();
 				PullAndStoreUserInformation();
 
 
@@ -42,6 +40,8 @@ namespace BumblebeeBrightspace
 				UserInfo.SetSchoolInformation(tb_SchoolDomain.Text, "HOMEPAGEURL");
 
 			//Check user information is stored
+			ChromiumDriver.InitializeDriver();
+
 			PullAndStoreUserInformation();
 			ShowHomepageForm();
 		}

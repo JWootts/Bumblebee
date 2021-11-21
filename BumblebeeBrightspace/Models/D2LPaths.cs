@@ -9,12 +9,13 @@ namespace BumblebeeBrightspace.Models
 	{
 		VERSION,
 		MYENROLLMENTS,
-		WHOAMI
+		WHOAMI,
+		GRADES
 	}
 
 	public static class D2LPaths
 	{
-		public static String ReturnD2lPath(D2LPATHS selection)
+		public static String ReturnD2lPath(D2LPATHS selection, int classId = 0)
 		{
 			switch (selection)
 			{
@@ -24,6 +25,8 @@ namespace BumblebeeBrightspace.Models
 					return ChromiumDriver.Return_D2lInital() +  "lp/" + ChromiumDriver.Return_LPVersion() + "/enrollments/myenrollments/?sortBy=-EndDate";
 				case D2LPATHS.WHOAMI:
 					return ChromiumDriver.Return_D2lInital() + "lp/" + ChromiumDriver.Return_LPVersion() + "/users/whoami";
+				case D2LPATHS.GRADES:
+					return "/d2l/api/le/" + ChromiumDriver.Return_LEVersion() + "/" + classId + "/grades/values/myGradeValues/";
 				default:
 					return "";
 			}

@@ -39,6 +39,7 @@ namespace BumblebeeBrightspace
 			this.bumblebeeLogo = new System.Windows.Forms.PictureBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.l_Name = new System.Windows.Forms.Label();
+			this.l_Notes = new System.Windows.Forms.Label();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
 			this.b_Next = new System.Windows.Forms.Button();
@@ -226,6 +227,15 @@ namespace BumblebeeBrightspace
 			this.l_Code.TabIndex = 3;
 			this.l_Code.Text = "[Class Code]";
 			// 
+			// l_Notes
+			// 
+			this.l_Notes.AutoSize = true;
+			this.l_Notes.Location = new System.Drawing.Point(63, 102);
+			this.l_Notes.Name = "l_Notes";
+			this.l_Notes.Size = new System.Drawing.Size(66, 13);
+			this.l_Notes.TabIndex = 3;
+			this.l_Notes.Text = "[Class Notes]";
+			// 
 			// label5
 			// 
 			this.label5.AutoSize = true;
@@ -263,6 +273,7 @@ namespace BumblebeeBrightspace
 			this.tabControl1.ResumeLayout(false);
 			this.tabPage1.ResumeLayout(false);
 			this.tabPage1.PerformLayout();
+			this.tabPage3.Controls.Add(this.l_Notes);
 			((System.ComponentModel.ISupportInitialize)(this.bumblebeeLogo)).EndInit();
 			this.groupBox1.ResumeLayout(false);
 			this.groupBox1.PerformLayout();
@@ -289,6 +300,7 @@ namespace BumblebeeBrightspace
 		private System.Windows.Forms.Button b_Next;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label l_Code;
+		private System.Windows.Forms.Label l_Notes;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label l_ClassName;
 		private System.Windows.Forms.Label l_classCounter;
