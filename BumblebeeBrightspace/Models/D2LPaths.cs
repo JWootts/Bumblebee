@@ -26,7 +26,7 @@ namespace BumblebeeBrightspace.Models
 				case D2LPATHS.WHOAMI:
 					return ChromiumDriver.Return_D2lInital() + "lp/" + ChromiumDriver.Return_LPVersion() + "/users/whoami";
 				case D2LPATHS.GRADES:
-					return "/d2l/api/le/" + ChromiumDriver.Return_LEVersion() + "/" + classId + "/grades/values/myGradeValues/";
+					return ChromiumDriver.Return_D2lInital() + "le/" + ChromiumDriver.Return_LEVersion() + "/" + classId + "/grades/values/myGradeValues/";
 				default:
 					return "";
 			}

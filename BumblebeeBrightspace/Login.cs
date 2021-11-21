@@ -54,6 +54,7 @@ namespace BumblebeeBrightspace
 				GetWhoAmiInformation();//Query Who-Am-I for user details ~ Rest of userdetails filled
 
 			GetUserClasses(); //Query Classes for class details
+			GetClassGrades(); //Return the class grades
 		}
 
 
@@ -62,6 +63,22 @@ namespace BumblebeeBrightspace
 			this.Hide();
 			Initalizer.homescreen.Show();
 		}
+
+		private void GetClassGrades()
+		{
+
+			List<string> classData = new List<string>();
+
+			UserInfo.GetClassList().ForEach((item) =>
+			{
+				classData.Add(ChromiumDriver.RunGETRequest(D2LPaths.ReturnD2lPath(D2LPATHS.GRADES, item.Id)));
+			});
+
+
+			//************Look at INFOExtractor using JTokens for deserlization
+
+		}
+
 
 		private void GetWhoAmiInformation()
 		{

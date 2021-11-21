@@ -16,3 +16,20 @@ C:\Users\Anna St Germain\Source\Repos\Bumblebee\BumblebeeBrightspace\obj\Debug\B
 C:\Users\Anna St Germain\Source\Repos\Bumblebee\BumblebeeBrightspace\bin\Debug\BumblebeeBrightspace.exe.config
 C:\Users\Anna St Germain\Source\Repos\Bumblebee\BumblebeeBrightspace\bin\Debug\BumblebeeBrightspace.exe
 C:\Users\Anna St Germain\Source\Repos\Bumblebee\BumblebeeBrightspace\bin\Debug\BumblebeeBrightspace.pdb
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\bin\Debug\assets\BumblebeeLogo.png
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\bin\Debug\chromedriver.exe
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\bin\Debug\BumblebeeBrightspace.exe.config
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\bin\Debug\BumblebeeBrightspace.exe
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\bin\Debug\BumblebeeBrightspace.pdb
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\bin\Debug\Newtonsoft.Json.dll
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\bin\Debug\WebDriver.dll
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\bin\Debug\Newtonsoft.Json.xml
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\obj\Debug\BumblebeeBrightspace.csprojAssemblyReference.cache
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\obj\Debug\BumblebeeBrightspace.Login.resources
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\obj\Debug\BumblebeeBrightspace.Homepage.resources
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\obj\Debug\BumblebeeBrightspace.Properties.Resources.resources
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\obj\Debug\BumblebeeBrightspace.csproj.GenerateResource.cache
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\obj\Debug\BumblebeeBrightspace.csproj.CoreCompileInputs.cache
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\obj\Debug\BumblebeeBrightspace.csproj.CopyComplete
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\obj\Debug\BumblebeeBrightspace.exe
+E:\School\FALL-2021\INFO5103\project\Bumblebee\BumblebeeBrightspace\obj\Debug\BumblebeeBrightspace.pdb
