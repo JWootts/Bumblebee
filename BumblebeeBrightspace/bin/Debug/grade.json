@@ -1,0 +1,22 @@
+{
+  "PointsNumerator": 0.0,
+  "PointsDenominator": 1.0,
+  "WeightedNumerator": 0.0,
+  "WeightedDenominator": 1.0,
+  "GradeObjectIdentifier": "1826564",
+  "GradeObjectName": "Bonus Quiz",
+  "GradeObjectType": 1,
+  "GradeObjectTypeName": "Numeric",
+  "DisplayedGrade": "0 / 1",
+  "Comments": {
+    "Text": "",
+    "Html": ""
+  },
+  "PrivateComments": {
+    "Text": "",
+    "Html": ""
+  },
+  "LastModified": "2021-09-24T19:42:04.377Z",
+  "LastModifiedBy": null,
+  "ReleasedDate": null
+}

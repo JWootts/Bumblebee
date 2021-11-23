@@ -1,4 +1,6 @@
 ﻿
+using BumblebeeBrightspace.Models;
+
 namespace BumblebeeBrightspace
 {
 	partial class Homepage
@@ -170,9 +172,16 @@ namespace BumblebeeBrightspace
 			this.groupBox1.TabIndex = 0;
 			this.groupBox1.TabStop = false;
 			this.groupBox1.Text = "Basic Information";
+
+			//
+			//
+			//
+			this.grades_grid.DataSource = grades;
+
 			// 
 			// groupBox2
 			// 
+			this.groupBox2.Controls.Add(this.grades_grid);
 			this.groupBox2.Location = new System.Drawing.Point(358, 6);
 			this.groupBox2.Name = "groupBox2";
 			this.groupBox2.Size = new System.Drawing.Size(320, 285);
@@ -304,5 +313,6 @@ namespace BumblebeeBrightspace
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label l_ClassName;
 		private System.Windows.Forms.Label l_classCounter;
+		private System.Windows.Forms.DataGrid grades_grid;
 	}
 }

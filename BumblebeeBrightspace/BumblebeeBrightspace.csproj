@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helpers\ChromiumDriver.cs" />
+    <Compile Include="Models\Assignment.cs" />
     <Compile Include="Models\Class.cs" />
     <Compile Include="Models\D2LPaths.cs" />
     <Compile Include="Login.cs">

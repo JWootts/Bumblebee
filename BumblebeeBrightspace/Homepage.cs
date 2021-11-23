@@ -1,6 +1,8 @@
 ﻿using BumblebeeBrightspace.Helpers;
 using BumblebeeBrightspace.Models;
+using Newtonsoft.Json.Linq;
 using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
@@ -11,8 +13,10 @@ namespace BumblebeeBrightspace
 	{
 
         private static int curClass = 0;
+        List<Assignment> grades = new List<Assignment>();
 
-		public Homepage()
+
+        public Homepage()
 		{
 			InitializeComponent();
 		}
@@ -38,12 +42,21 @@ namespace BumblebeeBrightspace
 		{
             l_ClassName.Text = UserInfo.GetClassList()[classIndex].Name;
             l_Code.Text = UserInfo.GetClassList()[classIndex].Code;
-            GetClassGrades(curClass);
-            l_Notes.Text = UserInfo.GetClassList()[classIndex].Notes;
+
+            if(UserInfo.GetClassList()[classIndex].Notes != "")
+            {
+                l_Notes.Text = UserInfo.GetClassList()[classIndex].Notes;
+            }
+            else
+            {
+                l_Notes.Text = "No notes for this class.";
+            }
 
             ConfirmNoEndings();
             SetCurrentClassCountLabel();
+            grades = InfoExtractor.GetClassGrades(classIndex);
         }
+
 
         private void ConfirmNoEndings()
 		{
@@ -58,10 +71,6 @@ namespace BumblebeeBrightspace
                 b_Next.Enabled = true;
         }
 
-        private void GetClassGrades(int classIndex)
-        {
-            InfoExtractor.WriteToJSONFile("grades.json", ChromiumDriver.RunGETRequest(D2LPaths.ReturnD2lPath(D2LPATHS.GRADES, UserInfo.GetClassList()[classIndex].Id)));
-        }
 
         private static Image ResizeImage(Image imgToResize, Size destinationSize)
         {

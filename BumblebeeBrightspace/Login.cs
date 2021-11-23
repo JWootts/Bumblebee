@@ -1,5 +1,6 @@
 ﻿using BumblebeeBrightspace.Helpers;
 using BumblebeeBrightspace.Models;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -54,7 +55,7 @@ namespace BumblebeeBrightspace
 				GetWhoAmiInformation();//Query Who-Am-I for user details ~ Rest of userdetails filled
 
 			GetUserClasses(); //Query Classes for class details
-			GetClassGrades(); //Return the class grades
+
 		}
 
 
@@ -64,34 +65,19 @@ namespace BumblebeeBrightspace
 			Initalizer.homescreen.Show();
 		}
 
-		private void GetClassGrades()
-		{
-
-			List<string> classData = new List<string>();
-
-			UserInfo.GetClassList().ForEach((item) =>
-			{
-				classData.Add(ChromiumDriver.RunGETRequest(D2LPaths.ReturnD2lPath(D2LPATHS.GRADES, item.Id)));
-			});
-
-
-			//************Look at INFOExtractor using JTokens for deserlization
-
-		}
-
 
 		private void GetWhoAmiInformation()
 		{
-			InfoExtractor.WriteToJSONFile("whoami.json", ChromiumDriver.RunGETRequest(D2LPaths.ReturnD2lPath(D2LPATHS.WHOAMI)));
-			List<string> userDetails = InfoExtractor.GetUserDetails("whoami.json");
+			JObject whoami = InfoExtractor.GetJObject(ChromiumDriver.RunGETRequest(D2LPaths.ReturnD2lPath(D2LPATHS.WHOAMI)));
+			List<string> userDetails = InfoExtractor.GetUserDetails(whoami);
 			UserInfo.SetDirectUserInfo(userDetails[0], userDetails[1], userDetails[2]);
 		}
 
 		private void GetUserClasses()
 		{
 			//Query Class information 
-			InfoExtractor.WriteToJSONFile("classes.json", ChromiumDriver.RunGETRequest(D2LPaths.ReturnD2lPath(D2LPATHS.MYENROLLMENTS)));
-			UserInfo.SetUserClasses(InfoExtractor.GetClassesFromFile("classes.json"));
+			JObject holdInfo = InfoExtractor.GetJObject(ChromiumDriver.RunGETRequest(D2LPaths.ReturnD2lPath(D2LPATHS.MYENROLLMENTS)));
+			UserInfo.SetUserClasses(InfoExtractor.GetClassesFromJObject(holdInfo));
 
 			//create new json file with only most recent classes
 			InfoExtractor.CreateJsonFromClasses(UserInfo.GetClassList());
