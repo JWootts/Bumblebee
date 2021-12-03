@@ -176,7 +176,10 @@ namespace BumblebeeBrightspace
 			//
 			//
 			//
-			this.grades_grid.DataSource = grades;
+			if (grades.Count != 0)
+			{
+				this.grades_grid.DataSource = grades;
+			}
 
 			// 
 			// groupBox2

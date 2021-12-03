@@ -41,10 +41,16 @@ namespace BumblebeeBrightspace
 				UserInfo.SetSchoolInformation(tb_SchoolDomain.Text, "HOMEPAGEURL");
 
 			//Check user information is stored
-			ChromiumDriver.InitializeDriver();
+			if (ChromiumDriver.InitializeDriver())
+			{
 
-			PullAndStoreUserInformation();
-			ShowHomepageForm();
+				PullAndStoreUserInformation();
+				ShowHomepageForm();
+			}
+			else
+			{
+				MessageBox.Show("Invalid Username / Password Combo. Please try again.");
+			}
 		}
 
 		//~~~ Private helper

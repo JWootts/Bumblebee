@@ -24,17 +24,19 @@ namespace BumblebeeBrightspace.Helpers
 		private static String LE_VERSION;
 		private static String LP_VERSION;
 
-		public static void InitializeDriver()
+		public static bool InitializeDriver()
 		{
+			bool rtnVal;
 			service = ChromeDriverService.CreateDefaultService();
 			service.HideCommandPromptWindow = true;
 			var options = new ChromeOptions();
 			options.AddArgument("headless");
 			driver = new ChromeDriver(service, options);
-			RunLogin(); //Run login from stored data (this is stored at program start)
+			rtnVal = RunLogin(); //Run login from stored data (this is stored at program start)
 
 			//~~~ Grab d2l versions
 			GetD2LVersionInformation(); //Run version selection - will be used in d2l calls
+			return rtnVal;
 		}
 
 		public static String RunGETRequest(String d2lCall) //SETUP CONSTS OF d2l CALLS? OR ENUMS?
@@ -54,7 +56,7 @@ namespace BumblebeeBrightspace.Helpers
 		}
 
 		//~~~~ Private function Helpers
-		private static void RunLogin()
+		private static bool RunLogin()
 		{
 			String user, pass;
 			//~~~ Grab user properties
@@ -75,13 +77,21 @@ namespace BumblebeeBrightspace.Helpers
 			passfield.Clear();
 			passfield.SendKeys(pass);
 
-			driver.FindElement(By.Name("submit")).Click();
+			driver.FindElement(By.XPath("//button[@type='submit']")).Click();
 
 			//~~~ Navigate URL
-			driver.Navigate().GoToUrl(UserInfo.GetHomepageURI());
+			try
+			{
+				driver.Navigate().GoToUrl(UserInfo.GetHomepageURI());
 
-			//Grab homepage image information and save
-			SaveHomepageImage(driver);
+				//Grab homepage image information and save
+				SaveHomepageImage(driver);
+				return true;
+			}
+			catch(Exception ex)
+			{
+				return false;
+			}
 		}
 
 		//Save homepage logo image to be used within program

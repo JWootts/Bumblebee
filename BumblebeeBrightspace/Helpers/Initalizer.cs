@@ -10,7 +10,7 @@ namespace BumblebeeBrightspace.Helpers
 		public static String APPDATA_DIR = "C:\\Users\\" + Environment.UserName + "\\AppData\\Roaming\\" + APP_NAME;
 		public static String LOGO_LOCATION = APPDATA_DIR + "\\logo.jpeg";
 
-		public static String FANSHAWE_LOGIN_URI = "https://login.fanshawec.ca/cas/login?service=https%3A%2F%2Flogin.fanshawec.ca%2Fidp%2FAuthn%2FExtCas%3Fconversation%3De2s1&entityId=https%3A%2F%2Fc70baeb4-290e-4d0f-864b-dee68f276d2c.tenants.brightspace.com%2FsamlLogin";
+		public static String FANSHAWE_LOGIN_URI = "https://fanshaweonline.ca/";
 		private static String FANSHAWE_HOMEPAGE_URI = "https://www.fanshaweonline.ca/";
 
 		public static Homepage homescreen = new Homepage();
