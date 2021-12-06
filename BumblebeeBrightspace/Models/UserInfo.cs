@@ -78,5 +78,14 @@ namespace BumblebeeBrightspace.Models
 			return userClasses;
 		}
 
+		public static int ReturnClassIndex(string classname)
+		{
+			for(int i = 0; i < userClasses.Count; ++i)
+				if (userClasses[i].Name == classname)
+					return i;
+			
+			return -1;
+		}
+
 	}
 }

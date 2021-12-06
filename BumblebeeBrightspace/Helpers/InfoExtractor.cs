@@ -55,7 +55,9 @@ namespace BumblebeeBrightspace.Helpers
                 else if (DateTime.Parse(end_dates[i]) < DateTime.Now)
                     continue;
 
-                classes.Add(new Class(ids[i], codes[i], names[i], Convert.ToDateTime(start_dates[i]), Convert.ToDateTime(end_dates[i]), Convert.ToDateTime(last_accessed[i]), ""));
+                string[] empty = { };
+
+                classes.Add(new Class(ids[i], codes[i], names[i], Convert.ToDateTime(start_dates[i]), Convert.ToDateTime(end_dates[i]), Convert.ToDateTime(last_accessed[i]), empty));
             }
             return classes;
         }

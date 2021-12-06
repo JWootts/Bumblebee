@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
+using Microsoft.VisualBasic;
 
 namespace BumblebeeBrightspace
 {
@@ -15,6 +16,7 @@ namespace BumblebeeBrightspace
         private static int curClass = 0;
         List<Assignment> grades = new List<Assignment>();
         private string gradesDisplay = "";
+        private string ADDNOTES_STARTER = "SECTION TO ADD NEW CLASS NOTES";
 
 
         public Homepage()
@@ -27,8 +29,10 @@ namespace BumblebeeBrightspace
 			logo.Image = ResizeImage(Image.FromFile(Initalizer.LOGO_LOCATION), logo.Size);
             bumblebeeLogo.Image = ResizeImage(Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + "\\assets\\BumblebeeLogo.png"), bumblebeeLogo.Size);
             l_Name.Text = UserInfo.firstname + ", " + UserInfo.lastname;
+            tb_ClassNotes.Text = ADDNOTES_STARTER;
 
             ShowClassInformation(curClass);
+            LoadNoteInformation();
         }
 
 		private void tabPage1_Click(object sender, EventArgs e)
@@ -41,13 +45,17 @@ namespace BumblebeeBrightspace
 
         private void ShowClassInformation(int classIndex)
 		{
+            string classNotesString = "";
             l_ClassName.Text = UserInfo.GetClassList()[classIndex].Name;
             l_Code.Text = UserInfo.GetClassList()[classIndex].Code;
             gradesDisplay = "";
 
-            if (UserInfo.GetClassList()[classIndex].Notes != "")
+            if (UserInfo.GetClassList()[classIndex].Notes.Length != 0)
             {
-                l_Notes.Text = UserInfo.GetClassList()[classIndex].Notes;
+                foreach (string note in UserInfo.GetClassList()[classIndex].Notes)
+                    classNotesString += "\n --> " + note;
+
+                l_Notes.Text = classNotesString;
             }
             else
             {
@@ -60,7 +68,10 @@ namespace BumblebeeBrightspace
 
             for(int i = 0; i < grades.Count; i++)
             {
-                gradesDisplay += grades[i].assignmentName + ": " + grades[i].grade + Environment.NewLine;
+                if (grades[i].grade != "0 / 0")
+                    gradesDisplay += grades[i].assignmentName + ": " + grades[i].grade + Environment.NewLine;
+                else
+                    gradesDisplay += grades[i].assignmentName + ": " + grades[i].grade + " (DROPPED) " + Environment.NewLine;
             }
 
             grade.Text = gradesDisplay;
@@ -141,5 +152,91 @@ namespace BumblebeeBrightspace
         {
 
         }
-    }
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+            if (UserInfo.GetClassList()[curClass].Notes.Length != 0)
+            {
+                tabControl1.SelectedIndex = 2;
+                RefreshCurrentClassNotes();
+            }
+        }
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+            if(tb_ClassNotes.Text != "" || tb_ClassNotes.Text != ADDNOTES_STARTER) { 
+                List<string> noteList = new List<string>();
+
+                foreach (string note in UserInfo.GetClassList()[curClass].Notes)
+                    noteList.Add(note);
+
+                noteList.Add(tb_ClassNotes.Text);
+                tb_ClassNotes.Text = "";
+                UserInfo.GetClassList()[curClass].Notes = noteList.ToArray();
+            }
+        }
+
+		private void textBox1_TextChanged(object sender, EventArgs e)
+		{
+            if (tb_ClassNotes.Text == ADDNOTES_STARTER)
+                tb_ClassNotes.Text = "";
+
+        }
+
+        private void RefreshCurrentClassNotes()
+		{
+            l_Notes.Text = "";
+
+            foreach (string note in UserInfo.GetClassList()[curClass].Notes)
+                l_Notes.Text += "--> " + note + Environment.NewLine + Environment.NewLine; 
+
+            l_classNoteHeader.Text = UserInfo.GetClassList()[curClass].Name;
+        }
+
+        private void LoadNoteInformation()
+		{
+            foreach (var classes in UserInfo.GetClassList())
+                cb_classNames.Items.Add(classes.Name);
+		}
+
+		private void tabPage3_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button3_Click(object sender, EventArgs e)
+		{
+            l_Notes.Text = "";
+            if (cb_classNames.Text != "")
+			{
+                int classIndex = UserInfo.ReturnClassIndex(cb_classNames.Text);
+                if(classIndex != -1)
+                    foreach(var note in UserInfo.GetClassList()[classIndex].Notes)
+                        l_Notes.Text += "--> " + note + Environment.NewLine + Environment.NewLine;
+               
+			}
+		}
+
+		private void cb_classNames_SelectedIndexChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void b_AddClassNotes_Click(object sender, EventArgs e)
+		{
+            if(tb_NewClassNote.Text != "" && cb_classNames.Text != "")
+			{
+                List<string> noteList = new List<string>();
+
+                foreach (string note in UserInfo.GetClassList()[curClass].Notes)
+                    noteList.Add(note);
+
+                noteList.Add(tb_NewClassNote.Text);
+                tb_NewClassNote.Text = "";
+                UserInfo.GetClassList()[curClass].Notes = noteList.ToArray();
+
+                RefreshCurrentClassNotes();
+            }
+		}
+	}
 }
