@@ -14,6 +14,7 @@ namespace BumblebeeBrightspace
 
         private static int curClass = 0;
         List<Assignment> grades = new List<Assignment>();
+        private string gradesDisplay = "";
 
 
         public Homepage()
@@ -42,8 +43,9 @@ namespace BumblebeeBrightspace
 		{
             l_ClassName.Text = UserInfo.GetClassList()[classIndex].Name;
             l_Code.Text = UserInfo.GetClassList()[classIndex].Code;
+            gradesDisplay = "";
 
-            if(UserInfo.GetClassList()[classIndex].Notes != "")
+            if (UserInfo.GetClassList()[classIndex].Notes != "")
             {
                 l_Notes.Text = UserInfo.GetClassList()[classIndex].Notes;
             }
@@ -55,6 +57,13 @@ namespace BumblebeeBrightspace
             ConfirmNoEndings();
             SetCurrentClassCountLabel();
             grades = InfoExtractor.GetClassGrades(classIndex);
+
+            for(int i = 0; i < grades.Count; i++)
+            {
+                gradesDisplay += grades[i].assignmentName + ": " + grades[i].grade + Environment.NewLine;
+            }
+
+            grade.Text = gradesDisplay;
         }
 
 
@@ -127,5 +136,10 @@ namespace BumblebeeBrightspace
 		{
             l_classCounter.Text = (curClass + 1) + "/" + (UserInfo.GetClassList().Count);
         }
-	}
+
+        private void grade_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
