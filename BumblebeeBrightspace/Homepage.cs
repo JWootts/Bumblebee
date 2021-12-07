@@ -1,12 +1,10 @@
 ﻿using BumblebeeBrightspace.Helpers;
 using BumblebeeBrightspace.Models;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
-using Microsoft.VisualBasic;
 
 namespace BumblebeeBrightspace
 {
@@ -17,7 +15,6 @@ namespace BumblebeeBrightspace
         List<Assignment> grades = new List<Assignment>();
         private string gradesDisplay = "";
         private string ADDNOTES_STARTER = "SECTION TO ADD NEW CLASS NOTES";
-
 
         public Homepage()
 		{
@@ -76,7 +73,6 @@ namespace BumblebeeBrightspace
 
             grade.Text = gradesDisplay;
         }
-
 
         private void ConfirmNoEndings()
 		{
@@ -237,6 +233,11 @@ namespace BumblebeeBrightspace
 
                 RefreshCurrentClassNotes();
             }
+		}
+
+		private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+		{
+
 		}
 	}
 }
