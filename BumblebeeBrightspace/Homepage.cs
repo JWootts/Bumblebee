@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace BumblebeeBrightspace
@@ -239,10 +240,26 @@ namespace BumblebeeBrightspace
         private void monthCalendar1_DateSelected(object sender, System.Windows.Forms.DateRangeEventArgs e)
         {
             tb_DueDates.Text = "";
+            int num_assignments = 0;
+            int counter = 0;
+            Calendar cal = new CultureInfo("en-US").Calendar;
+            int week = cal.GetWeekOfYear(e.End, CalendarWeekRule.FirstDay, DayOfWeek.Sunday);
+            foreach (DueDate date in dates)
+            {
+                if (week == cal.GetWeekOfYear(date.EndDate, CalendarWeekRule.FirstDay, DayOfWeek.Sunday))
+                {
+                    num_assignments++;
+                }
+            }
             foreach (DueDate date in dates)
             {
                 if ((date.EndDate.Month == e.End.Month) && (date.EndDate.Year == e.End.Year) && (date.EndDate.Day == e.End.Day))
                 {
+                    if (counter == 0)
+                    {
+                        tb_DueDates.Text += "Weekly Stress Level: " + num_assignments + Environment.NewLine;
+                        counter++;
+                    }
                     tb_DueDates.Text += date.Title + Environment.NewLine;
                 }
             }
@@ -251,10 +268,26 @@ namespace BumblebeeBrightspace
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
 		{
             tb_DueDates.Text = "";
+            int num_assignments = 0;
+            int counter = 0;
+            Calendar cal = new CultureInfo("en-US").Calendar;
+            int week = cal.GetWeekOfYear(e.End, CalendarWeekRule.FirstDay, DayOfWeek.Sunday);
+            foreach (DueDate date in dates)
+            {
+                if (week == cal.GetWeekOfYear(date.EndDate, CalendarWeekRule.FirstDay, DayOfWeek.Sunday))
+                {
+                    num_assignments++;
+                }
+            }
             foreach (DueDate date in dates)
             {
                 if ((date.EndDate.Month == e.End.Month) && (date.EndDate.Year == e.End.Year) && (date.EndDate.Day == e.End.Day))
                 {
+                    if (counter == 0)
+                    {
+                        tb_DueDates.Text += "Weekly Stress Level: " + num_assignments + Environment.NewLine;
+                        counter++;
+                    }
                     tb_DueDates.Text += date.Title + Environment.NewLine;
                 }
             }
