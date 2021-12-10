@@ -236,9 +236,28 @@ namespace BumblebeeBrightspace
             }
 		}
 
-		private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
-		{
+        private void monthCalendar1_DateSelected(object sender, System.Windows.Forms.DateRangeEventArgs e)
+        {
+            tb_DueDates.Text = "";
+            foreach (DueDate date in dates)
+            {
+                if ((date.EndDate.Month == e.End.Month) && (date.EndDate.Year == e.End.Year) && (date.EndDate.Day == e.End.Day))
+                {
+                    tb_DueDates.Text += date.Title + Environment.NewLine;
+                }
+            }
+        }
 
-		}
-	}
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+		{
+            tb_DueDates.Text = "";
+            foreach (DueDate date in dates)
+            {
+                if ((date.EndDate.Month == e.End.Month) && (date.EndDate.Year == e.End.Year) && (date.EndDate.Day == e.End.Day))
+                {
+                    tb_DueDates.Text += date.Title + Environment.NewLine;
+                }
+            }
+        }
+    }
 }
