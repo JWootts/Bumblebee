@@ -131,11 +131,33 @@ namespace BumblebeeBrightspace.Helpers
 
         public static List<Assignment> GetClassGrades(int classIndex)
         {
-
             JArray holdJArray = InfoExtractor.GetJArray(ChromiumDriver.RunGETRequest(D2LPaths.ReturnD2lPath(D2LPATHS.GRADES, UserInfo.GetClassList()[classIndex].Id)));
             List<Assignment> grades = GetGrades(holdJArray);
             return grades;
+        }
 
+        public static List<DueDate> GetDueDates(JArray array)
+        {
+            List<DueDate> dates = new List<DueDate>();
+
+            foreach (JObject i in array)
+            {
+                JObject holder = i;
+                string title = i.SelectToken("Title").ToString();
+                string start = i.SelectToken("StartDateTime").ToString();
+                string end = i.SelectToken("EndDateTime").ToString();
+                DueDate date = new DueDate(title, DateTime.Parse(start).AddHours(-5), DateTime.Parse(end).AddHours(-5));
+                dates.Add(date);
+            }
+
+            return dates;
+        }
+
+        public static List<DueDate> GetClassDueDates(int classIndex)
+        {
+            JArray holdJArray = InfoExtractor.GetJArray(ChromiumDriver.RunGETRequest(D2LPaths.ReturnD2lPath(D2LPATHS.DUE_DATES, UserInfo.GetClassList()[classIndex].Id)));
+            List<DueDate> dates = GetDueDates(holdJArray);
+            return dates;
         }
 
 

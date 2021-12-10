@@ -10,7 +10,8 @@ namespace BumblebeeBrightspace.Models
 		VERSION,
 		MYENROLLMENTS,
 		WHOAMI,
-		GRADES
+		GRADES,
+		DUE_DATES
 	}
 
 	public static class D2LPaths
@@ -22,11 +23,13 @@ namespace BumblebeeBrightspace.Models
 				case D2LPATHS.VERSION:
 					return ChromiumDriver.Return_D2lInital() + "versions/";
 				case D2LPATHS.MYENROLLMENTS:
-					return ChromiumDriver.Return_D2lInital() +  "lp/" + ChromiumDriver.Return_LPVersion() + "/enrollments/myenrollments/?sortBy=-EndDate";
+					return ChromiumDriver.Return_D2lInital() + "lp/" + ChromiumDriver.Return_LPVersion() + "/enrollments/myenrollments/?sortBy=-EndDate";
 				case D2LPATHS.WHOAMI:
 					return ChromiumDriver.Return_D2lInital() + "lp/" + ChromiumDriver.Return_LPVersion() + "/users/whoami";
 				case D2LPATHS.GRADES:
 					return ChromiumDriver.Return_D2lInital() + "le/" + ChromiumDriver.Return_LEVersion() + "/" + classId + "/grades/values/myGradeValues/";
+				case D2LPATHS.DUE_DATES:
+					return ChromiumDriver.Return_D2lInital() + "le/" + ChromiumDriver.Return_LEVersion() + "/" + classId + "/calendar/events/"; 
 				default:
 					return "";
 			}

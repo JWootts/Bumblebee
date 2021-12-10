@@ -13,6 +13,7 @@ namespace BumblebeeBrightspace
 
         private static int curClass = 0;
         List<Assignment> grades = new List<Assignment>();
+        List<DueDate> dates = new List<DueDate>();
         private string gradesDisplay = "";
         private string ADDNOTES_STARTER = "SECTION TO ADD NEW CLASS NOTES";
 
@@ -62,7 +63,7 @@ namespace BumblebeeBrightspace
             ConfirmNoEndings();
             SetCurrentClassCountLabel();
             grades = InfoExtractor.GetClassGrades(classIndex);
-
+            dates = InfoExtractor.GetClassDueDates(classIndex);
             for(int i = 0; i < grades.Count; i++)
             {
                 if (grades[i].grade != "0 / 0")

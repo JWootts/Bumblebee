@@ -1,0 +1,2408 @@
+{
+  "PagingInfo": {
+    "Bookmark": "1132140",
+    "HasMoreItems": true
+  },
+  "Items": [
+    {
+      "OrgUnit": {
+        "Id": 29533,
+        "Type": {
+          "Id": 1,
+          "Code": "Organization",
+          "Name": "Organization"
+        },
+        "Name": "Fanshawe College",
+        "Code": "Fanshawe College"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-09-19T03:31:25.61Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 574944,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "COOP1020/Co-operative Education - CPA",
+        "Code": "CPA_CO-OP"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-09-17T02:12:02.303Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 882139,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "WRIT Assessment Test Course",
+        "Code": "WRIT-ASSESS-2018"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2018-06-25T04:00:00Z",
+        "EndDate": "2019-06-05T13:20:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-01-13T21:27:01.843Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 888064,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CPA CO-OP FALL 2018 INTAKE",
+        "Code": "CPA CO-OP FALL 2018 INTAKE"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 906769,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "Career Services Online Resources",
+        "Code": "CareerServices"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2018-11-01T04:00:00Z",
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-09-17T19:22:22.27Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 916459,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "MATH1202 Mathematics for Programmers",
+        "Code": "MATH-1202-(01-02)-19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-05-03T04:49:00.613Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 916461,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "MATH-1202-02-19W",
+        "Code": "MATH-1202-02-19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 917373,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "WRIT-1043-60 - Reason and Writing 1 - IT",
+        "Code": "WRIT-1043-60-19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-06T04:59:00Z",
+        "EndDate": "2019-06-02T03:59:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-05-07T16:33:31.393Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 919723,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "Fanshawe Orientation Course - Student Success",
+        "Code": "EDUC-9036-01-18FCE"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2018-12-06T13:30:00Z",
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-09-07T06:04:46.12Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 919725,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "EDUC-9036-01-18FCE",
+        "Code": "EDUC-9036-01-18FCE"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 920667,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO1214 Programming Fundamentals",
+        "Code": "INFO-1214-02-19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-04-30T05:00:27.75Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 920668,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-1214-02-19W",
+        "Code": "INFO-1214-02-19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 920708,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "WRIT-1043-60-19W",
+        "Code": "WRIT-1043-60-19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 928748,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO1215 Database Fundamentals",
+        "Code": "INFO-1215-02-19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-05-03T04:48:37.32Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 928750,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-1215-02-19W",
+        "Code": "INFO-1215-02-19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 932328,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "BUSI1156 Strategies for Success ",
+        "Code": "BUSI-1156-02-19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-04-30T04:50:11.44Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 932329,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "BUSI-1156-02-19W",
+        "Code": "BUSI-1156-02-19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 932429,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "COMPUTER PROGRAMMER ANALYST",
+        "Code": "CPA HOMEPAGE WINTER 2019"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-04-24T22:21:36.693Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 932430,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CPA LEVEL 1 - 19W",
+        "Code": "CPA LEVEL 1 - 19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 934307,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "Group 1",
+        "Code": "grp_1"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 934841,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "SCHOOL OF IT STUDENTS",
+        "Code": "School of IT Students Info Forum WINTER 2019"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-04-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-01-16T19:53:56.273Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 934844,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CTRL-CPA21-LCD-19W",
+        "Code": "CTRL-CPA21-LCD-19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 936960,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO1216 Operating Syst Fundamentals--Programmers",
+        "Code": "INFO-1216-02-19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-04-29T03:34:21.08Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 936961,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-1216-02-19W",
+        "Code": "INFO-1216-02-19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 940090,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "IT Programming Challenge",
+        "Code": "IT CHALLENGE WINTER 2019"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-01-07T05:00:00Z",
+        "EndDate": "2019-05-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-04-09T20:49:14.577Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 940091,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "IT CHALLENGE CPA 19W",
+        "Code": "IT CHALLENGE CPA 19W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946016,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO1156 Object Oriented Programming with C++",
+        "Code": "INFO-1156-01-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-05-06T04:00:00Z",
+        "EndDate": "2019-09-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-08-30T03:50:36.497Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946017,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-1156-01-19S",
+        "Code": "INFO-1156-01-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946019,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO1167 Business At the Speed of Light",
+        "Code": "INFO-1167-(01-02-03)-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-05-06T04:00:00Z",
+        "EndDate": "2019-09-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-08-29T00:44:56.663Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946020,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-1167-01-19S",
+        "Code": "INFO-1167-01-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946044,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO1217 Web Design",
+        "Code": "INFO-1217-(01-02)-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-05-06T04:00:00Z",
+        "EndDate": "2019-09-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-08-31T01:04:54.233Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946045,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-1217-01-19S",
+        "Code": "INFO-1217-01-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946057,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3104 Relational Databases",
+        "Code": "INFO-3104-01-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-05-06T04:00:00Z",
+        "EndDate": "2019-09-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-09-02T14:18:55.75Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946058,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3104-01-19S",
+        "Code": "INFO-3104-01-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946076,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3120 Prog. Commercial Game Engines",
+        "Code": "INFO-3120-01-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-05-06T04:00:00Z",
+        "EndDate": "2019-09-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-09-02T14:18:46.28Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946077,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3120-01-19S",
+        "Code": "INFO-3120-01-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946085,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3134 Object Oriented Programming with Java",
+        "Code": "INFO-3134-01-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-05-06T04:00:00Z",
+        "EndDate": "2019-09-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-09-04T15:14:06.567Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946086,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3134-01-19S",
+        "Code": "INFO-3134-01-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946402,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "MGMT3052 Understanding Workplace Behaviours",
+        "Code": "MGMT-3052-(01-02-03)-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-05-06T04:00:00Z",
+        "EndDate": "2019-09-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-08-26T22:21:06.907Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946403,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "MGMT-3052-01-19S",
+        "Code": "MGMT-3052-01-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946435,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "COMPUTER PROGRAMMER ANALYST",
+        "Code": "CPA HOMEPAGE SUMMER 2019"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-05-06T04:00:00Z",
+        "EndDate": "2019-09-18T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-08-11T20:39:30.187Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 946436,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CPA LEVEL 2 - 19S",
+        "Code": "CPA LEVEL 2 - 19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 955481,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "SCHOOL OF IT STUDENTS",
+        "Code": "School of IT Students Info Forum SUMMER 2019"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-05-06T04:00:00Z",
+        "EndDate": "2019-09-19T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-07-18T14:25:21.767Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 956206,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "Group 2",
+        "Code": "grp_2"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 956394,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "Group 87",
+        "Code": "grp_87"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 957593,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "Group 11: Admin Gals",
+        "Code": "Group_777065_11"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 960897,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CTRL-CPA22-LCD-19S",
+        "Code": "CTRL-CPA22-LCD-19S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 965072,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO1219 Network Fundamentals for Programmers",
+        "Code": "INFO-1219-(01-02-03-04)-19F"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-01-18T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-12-29T04:06:45.827Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 965084,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3070 Client/Server Application Development",
+        "Code": "INFO-3070-04-19F"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-01-18T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-01-06T23:19:42.2Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 965106,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO5052 Advanced Databases",
+        "Code": "INFO-5052-(03-04)-19F"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-03-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-03-10T23:11:40.43Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 965416,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-1219-04-19F",
+        "Code": "INFO-1219-04-19F"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 965468,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3070-04-19F",
+        "Code": "INFO-3070-04-19F"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 965518,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-5052-04-19F",
+        "Code": "INFO-5052-04-19F"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 966327,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3140 Object Oriented Analysis &amp; Modeling",
+        "Code": "INFO-3140-(03-04)-19F"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-01-18T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-01-07T03:16:10.103Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 966329,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3140-04-19F",
+        "Code": "INFO-3140-04-19F"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 966506,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "CPA HOMEPAGE FALL 2019\tCOMPUTER PROGRAMMER ANALYST",
+        "Code": "CPA HOMEPAGE FALL 2019"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-01-06T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-11-09T16:55:54.43Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 966508,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CPA LEVEL 3 -19F",
+        "Code": "CPA LEVEL 3 -19F"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 966574,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "School of IT Students",
+        "Code": "SCHOOL OF IT STUDENTS INFO FORUM FALL 2019"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-01-06T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-11-28T16:57:40.08Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 976947,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "COMM-3077-63 - Communication for IT Professionals",
+        "Code": "COMM-3077-63-19F"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-02T03:30:00Z",
+        "EndDate": "2020-01-21T04:30:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-01-07T23:18:42.3Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 984372,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "COMM-3077-63 - Communication for IT Professionals",
+        "Code": "COMM-3077-63-19F"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 987745,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CTRL-CPA23-LCD-19F",
+        "Code": "CTRL-CPA23-LCD-19F"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 988262,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "ACM Contest",
+        "Code": "IT CHALLENGE FALL 2019"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-01-06T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-09-28T19:39:14.807Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 988264,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CPA STUDENTS - ACM19",
+        "Code": "CPA STUDENTS - ACM19"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 988813,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3135 Data Structures &amp; Algorithms",
+        "Code": "INFO-3135-04-19F"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2019-09-03T04:00:00Z",
+        "EndDate": "2020-01-18T05:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2019-12-26T17:49:52.45Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 988814,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3135-04-19F",
+        "Code": "INFO-3135-04-19F"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 990442,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "COMM-3077-63 - Communication for IT Professionals 3",
+        "Code": "COMM-3077-63 - Communication for IT Professionals_"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 998334,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "Section 4 - GROUP 1",
+        "Code": "INFO-1219-04-19F_1"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 999909,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "Research Report Group # 3",
+        "Code": "Research Report Group #_3"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1043997,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3067 ASP.NET Programming with C#",
+        "Code": "INFO-3067-(03-04)-20S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-05-04T04:00:00Z",
+        "EndDate": "2020-09-20T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-08-08T00:13:01.42Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1043998,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3067-03-20S",
+        "Code": "INFO-3067-03-20S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044010,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3111 C++ Graphics Programming",
+        "Code": "INFO-3111-(01-02)-20S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-06-29T04:00:00Z",
+        "EndDate": "2020-09-20T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-08-27T00:45:31.607Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044011,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3111-01-20S",
+        "Code": "INFO-3111-01-20S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044071,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3136 Mobile Development",
+        "Code": "INFO-3136-(01-02-03-04)-20S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-05-04T04:00:00Z",
+        "EndDate": "2020-09-20T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-09-07T04:04:05.547Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044074,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3136-03-20S",
+        "Code": "INFO-3136-03-20S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044083,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3137 Software Design Patterns 1",
+        "Code": "INFO-3137-(03-04)-20S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-05-04T04:00:00Z",
+        "EndDate": "2020-09-20T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-08-27T14:50:07.963Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044084,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3137-03-20S",
+        "Code": "INFO-3137-03-20S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044244,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "MGMT3036 Prof. Development - Career Planning",
+        "Code": "MGMT-3036-03-20S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-05-04T04:00:00Z",
+        "EndDate": "2020-09-20T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-08-15T21:18:03.803Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1044245,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "MGMT-3036-03-20S",
+        "Code": "MGMT-3036-03-20S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1045792,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3138 Programming with Declarative Languages",
+        "Code": "INFO-3138-(01-02-03-04)-20S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-05-04T04:00:00Z",
+        "EndDate": "2020-09-20T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-09-03T23:37:43.253Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1049666,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3138-03-20S",
+        "Code": "INFO-3138-03-20S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1051950,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "COMPUTER PROGRAMMER ANALYST",
+        "Code": "CPA HOMEPAGE SUMMER 2020"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-05-01T04:00:00Z",
+        "EndDate": "2020-09-19T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-08-04T07:15:19.727Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1051960,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "School of IT Students",
+        "Code": "SCHOOL OF IT STUDENTS INFO FORUM SUMMER 2020"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2020-05-04T04:00:00Z",
+        "EndDate": "2020-09-20T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2020-08-19T15:53:09.307Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1052746,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CPA LEVEL 4 - 20S",
+        "Code": "CPA LEVEL 4 - 20S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1053353,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "CTRL-CPA24-LCD-20S",
+        "Code": "CTRL-CPA24-LCD-20S"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1117490,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3139 JavaScript (Online)",
+        "Code": "INFO-3139-(01-02-03)-21W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-11T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-04-24T16:51:29.31Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1117493,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3139-03-21W",
+        "Code": "INFO-3139-03-21W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1124344,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3112 Managing Software Projects-Applied 1 (Online)",
+        "Code": "INFO-3112-(01-02-03)-21W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-11T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-04-24T20:43:22.577Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1124347,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3112-03-21W",
+        "Code": "INFO-3112-03-21W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1124352,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "Group 4",
+        "Code": "grp_4"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1128547,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO3141 Mobile Develpment-Inter (Online)",
+        "Code": "INFO-3141-(01-02-03)-21W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-11T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-04-26T06:05:00.05Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1128552,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-3141-03-21W",
+        "Code": "INFO-3141-03-21W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1128586,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO5060 Component-based Programming with .NET (Online)",
+        "Code": "INFO-5060-(01-02-03)-21W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-11T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-04-27T01:00:22.683Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1128589,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-5060-03-21W",
+        "Code": "INFO-5060-03-21W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1128625,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO5101 C# Advanced Topics (Online)",
+        "Code": "INFO-5101-(01-02-03)-21W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-11T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-05-15T04:02:16.68Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1128628,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-5101-03-21W",
+        "Code": "INFO-5101-03-21W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1128647,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "INFO5125 Software Design Patterns 2 (Online)",
+        "Code": "INFO-5125-(02-03)-21W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-11T05:00:00Z",
+        "EndDate": "2021-05-23T04:00:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-05-16T23:25:07.323Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1128650,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "INFO-5125-03-21W",
+        "Code": "INFO-5125-03-21W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1131442,
+        "Type": {
+          "Id": 3,
+          "Code": "Course Offering",
+          "Name": "Course Offering"
+        },
+        "Name": "PSYC-1124-40 - Dark History of Psychology",
+        "Code": "PSYC-1124-40-21W"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2021-01-10T04:30:00Z",
+        "EndDate": "2021-05-29T03:30:00Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": "2021-04-25T21:01:38.593Z"
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1132100,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "Group 5",
+        "Code": "grp_5"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    },
+    {
+      "OrgUnit": {
+        "Id": 1132140,
+        "Type": {
+          "Id": 4,
+          "Code": "Group",
+          "Name": "Group"
+        },
+        "Name": "Group 5",
+        "Code": "grp_5"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": null,
+        "EndDate": null,
+        "CanAccess": true,
+        "ClasslistRoleName": "Student",
+        "LISRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ],
+        "LastAccessed": null
+      }
+    }
+  ]
+}

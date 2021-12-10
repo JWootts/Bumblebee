@@ -73,6 +73,7 @@
     </Compile>
     <Compile Include="Helpers\InfoExtractor.cs" />
     <Compile Include="Helpers\Initalizer.cs" />
+    <Compile Include="Models\DueDate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\Submission.cs" />

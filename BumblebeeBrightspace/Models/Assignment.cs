@@ -18,7 +18,6 @@ namespace BumblebeeBrightspace.Models
             assignmentName = assiName;
             assignmentType = assiType;
             grade = gra;
-
         }
     }
 }
