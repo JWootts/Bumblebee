@@ -183,7 +183,7 @@ namespace BumblebeeBrightspace
 
         private void RefreshCurrentClassNotes()
 		{
-            l_Notes.Text = "";
+            l_Notes.Text = Environment.NewLine + Environment.NewLine;
 
             foreach (string note in UserInfo.GetClassList()[curClass].Notes)
                 l_Notes.Text += "--> " + note + Environment.NewLine + Environment.NewLine; 
